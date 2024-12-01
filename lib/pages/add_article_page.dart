@@ -13,7 +13,7 @@ class AddArticlePage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Add Article'),
+        title: const Text('Adicionar Artigo'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -21,12 +21,12 @@ class AddArticlePage extends StatelessWidget {
           children: [
             TextField(
               controller: titleController,
-              decoration: const InputDecoration(labelText: 'Title'),
+              decoration: const InputDecoration(labelText: 'Titulo'),
             ),
             const SizedBox(height: 16),
             TextField(
               controller: contentController,
-              decoration: const InputDecoration(labelText: 'Content'),
+              decoration: const InputDecoration(labelText: 'Conteudo'),
               maxLines: 5,
             ),
             const SizedBox(height: 16),

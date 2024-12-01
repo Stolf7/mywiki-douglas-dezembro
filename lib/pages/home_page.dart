@@ -14,10 +14,10 @@ class HomePage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Wiki App'),
+        title: const Text('My Wiki'),
       ),
       body: articles.isEmpty
-          ? const Center(child: Text('No articles yet. Add one!'))
+          ? const Center(child: Text('Você ainda não possui artigos, adicione um!'))
           : ListView.builder(
         itemCount: articles.length,
         itemBuilder: (context, index) {
