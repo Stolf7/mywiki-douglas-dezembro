@@ -19,5 +19,7 @@
         <li>Interface limpa e funcional</li>
     </ul>
     <p>O projeto foi desenvolvido com o intuito de oferecer uma solução simples, eficiente e escalável, utilizando as melhores práticas de desenvolvimento em Flutter.</p>
+    - Matheus Oliveira Stolf
+    - Juliano Alessandro
 </body>
 </html>
